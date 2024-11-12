@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InfoDrog-Drogas</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io_drogas/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io_drogas/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io_drogas/favicon-16x16.png">
+  <link rel="manifest" href="./favicon_io_drogas/site.webmanifest">
+  <link rel="stylesheet" href="./infoDrog.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container-fluid div_barranavegacion">
+    <nav class="nav_bar navbar navbar-expand-xl">
+      <a class="navbar-brand col-6 text-light" href="./index.html"><img src="./imagenes/icono_index_1.png"
+          alt="icono_index" width="50" height="50" class="icono_index d-inline-block">InfoDrog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle col-1 text-light" href="./index.html" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Inicio
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./index.html">Ir a inicio</a></li>
+              <li><a class="dropdown-item" href="./index.html#Titulo1">¿Qué es InfoDrog?</a></li>
+              <li><a class="dropdown-item" href="./index.html#Titulo2">¿Quién desarrolló InfoDrog?</a></li>
+              <li><a class="dropdown-item" href="./index.html#Titulo3">Más información</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle col-1 text-light" href="./drogas.html" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Drogas
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./drogas.html#Titulo4">¿Qué son las drogas?</a></li>
+              <li><a class="dropdown-item" href="./drogas.html#Titulo5">Historia</a></li>
+              <li><a class="dropdown-item" href="./drogas.html#Titulo6">Clasificación</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle col-1 text-light" href="./adiccion.html" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Adicción
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./adiccion.html#Titulo7">¿Qué es la adicción?</a></li>
+              <li><a class="dropdown-item" href="./adiccion.html#Titulo8">Causas y factores de riesgo</a></li>
+              <li><a class="dropdown-item" href="./adiccion.html#Titulo9">Señales de alarma</a></li>
+              <li><a class="dropdown-item" href="./adiccion.html#Titulo10">Efectos y consecuencias del consumo</a></li>
+              <li><a class="dropdown-item" href="./adiccion.html#Titulo11">¿Qué es la Tolerancia?</a></li>
+              <li><a class="dropdown-item" href="./adiccion.html#Titulo12">¿Qué es la Abstinencia?</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle col-1 text-light" href="./adolescentes.html" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Adolescentes
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./adolescentes.html#Titulo13">Causas de consumo en adolescentes</a>
+              </li>
+              <li><a class="dropdown-item" href="./adolescentes.html#Titulo14">Sustancias utilizadas</a></li>
+              <li><a class="dropdown-item" href="./adolescentes.html#Titulo15">Factores de riesgo</a></li>
+              <li><a class="dropdown-item" href="./adolescentes.html#Titulo16">Señales de alarma</a></li>
+              <li><a class="dropdown-item" href="./adolescentes.html#Titulo17">Consecuencias del consumo</a></li>
+              <li><a class="dropdown-item" href="./adolescentes.html#Titulo18">Recomendaciones para padres</a></li>
+              <li><a class="dropdown-item" href="./adolescentes.html#Titulo19">Prevención</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle col-1 text-light" href="./intervencion.html" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Intervención
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./intervencion.html#Titulo20">Prevención</a></li>
+              <li><a class="dropdown-item" href="./intervencion.html#Titulo21">Tratamiento</a></li>
+              <li><a class="dropdown-item" href="./intervencion.html#Titulo22">Ayuda</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle col-1 text-light" href="./referencias.html" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Referencias
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./referencias.html#Titulo23">Contenido</a></li>
+              <li><a class="dropdown-item" href="./referencias.html#Titulo24">Imagenes</a></li>
+              <li><a class="dropdown-item" href="./referencias.html#Titulo25">Videos</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="container-fluid text-bg-success" style="--bs-bg-opacity: .5;">
+    <div class="row">
+      <div class="btn-group">
+        <a href="./index.html#Titulo1" class="col-6 text-end"><button type="button"
+            class="botones btn  text-light p-2 m-2">Sobre InfoDrog</button></a>
+        <a href="./index.html#Titulo2" class="col-6 text-star"><button type="button"
+            class="botones btn  text-light p-2 m-2">Sobre Creadores</button></a>
+      </div>
+    </div>
+  </div>
+  <div class="container p-5">
+    <h1 id="Titulo4" class="text-center text-light text-uppercase">¿Qué son las drogas?</h1>
+    <div class="row">
+      <div class="col-6">
+        <p class="text-success text-uppercase"><strong>Según la Organización Mundial de la Salud, la droga es:</strong>
+        </p>
+        <p><strong>Toda sustancia con potencial para prevenir o curar una enfermedad.</strong> En el lenguaje coloquial
+          <strong>en español,</strong> el término suele referirse concretamente a las <strong>sustancias
+            psicoactivas</strong> y, a menudo, de forma aún más concreta, a las <strong>drogas ilegales.</strong>
+        </p>
+        <p>Este término también se utiliza en el ámbito de la farmacología, como sinónimo de principio activo o fármaco,
+          tal como refleja la definición de la OMS. Sin embargo, otros autores señalan que droga es el vocablo adecuado
+          para referirse a una sustancia consumida sin fines terapéuticos, autoadministrada y con potencial de abuso o
+          dependencia o que produce placer.</p>
+        <p>La mayoría de sustancias conocidas hoy por su consumo recreativo se dieron a conocer en primer lugar en el
+          ámbito clínico (médico), como el opio y la marihuana. También fue el caso del LSD, la MDMA o la cocaína. La
+          categorización de algunas sustancias como medicamento o como droga ha ido variando en diferentes periodos de
+          la historia según diversos factores sociales, culturales y científicos.</p>
+      </div>
+      <div class="col-6">
+        <p class="text-success text-uppercase"><strong>Las drogas son sustancias químicas que pueden cambiar el
+            funcionamiento de su cuerpo y mente.</strong></p>
+        <p class="text-success text-uppercase"><strong>Incluyen:</strong></p>
+        <ul class="listas">
+          <li><strong>Medicamentos recetados.</strong></li>
+          <li><strong>Medicamentos de venta libre.</strong></li>
+          <li><strong>Alcohol.</strong></li>
+          <li><strong>Tabaco.</strong></li>
+          <li><strong>Drogas ilegales.</strong></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container p-3">
+      <a href="./drogas.html"><button type="button" class="botones btn btn-sm btn-outline-success"
+          style="--bs-bg-opacity: .5;">Ir arriba</button></a>
+    </div>
+  </div>
+  <div class="container bg-success" style="--bs-bg-opacity: .5;">
+    <img src="./imagenes/imagen_9.png" alt="imagen_9" class="img-fluid mx-auto d-block w-50 h-50">
+    <p class="text-success text-center">Imagen 9</p>
+  </div>
+  <div class="container p-5">
+    <h1 id="Titulo5" class="text-center text-light text-uppercase">Historia</h1>
+    <p class="text-success text-uppercase"><strong>Historia de las drogas:</strong>
+    <div class="row">
+      <div class="col-4">
+        <p>Desde el siglo XIV, en los Países Bajos se comenzó a utilizar el término <strong>“Droog”</strong> para
+          referirse a plantas y especias secas con fines medicinales.</p>
+        <p> En inglés y francés, surgieron los términos <strong>“Drug”</strong> y <strong>"Drogue"</strong>, que también
+          se usaron para describir medicamentos. Mientras que en los Países Bajos <strong>“Droog”</strong> siguió
+          refiriéndose específicamente a productos medicinales derivados de plantas, en inglés el término
+          <strong>“Drug”</strong> pasó a usarse de manera más amplia, abarcando tanto medicamentos como sustancias
+          adictivas, incluidas algunas legales, como el alcohol y el tabaco, que no entran en la definición médica de
+          fármacos.
+        </p>
+        <p>En español, sin embargo, el uso de <strong>“Droga”</strong> se ha ido restringiendo y en la actualidad se
+          emplea comúnmente para describir sustancias psicoactivas ilegales.</p>
+      </div>
+      <div class="col-4">
+        <p>El consumo de drogas tiene una larga historia: existen pruebas de que los seres humanos conocían y usaban
+          plantas con propiedades psicoactivas desde antes de la formación de las primeras civilizaciones, como es el
+          caso del opio extraído de la adormidera. A lo largo de la historia, desde la civilización asiria hasta la
+          actualidad, las drogas han sido consumidas por distintos motivos, ya sean religiosos, rituales, medicinales,
+          por hábito, distracción o hedonismo.</p>
+        <p>En la cultura occidental, las drogas se han convertido en un tema tabú desde mediados del siglo XX, cuando se
+          promulgaron las primeras leyes contra ellas. Sin embargo, algunos países y estados de Estados Unidos han
+          promovido una cierta apertura y tolerancia desde principios del siglo XXI. Un ejemplo de prohibicionismo
+          fallido fue la Ley Seca en Estados Unidos, que prohibió el alcohol. Este intento fracasó y resultó en el
+          fortalecimiento de grupos mafiosos que inicialmente traficaban con alcohol y luego pasaron a otras drogas
+          cuando el alcohol volvió a ser legal.</p>
+      </div>
+      <div class="col-4">
+        <p>En la mayoría de los países de Europa Occidental, la producción y tráfico de drogas sigue estando penalizada,
+          aunque en algunos casos, el consumo o la posesión de pequeñas cantidades ha sido despenalizada, aunque sigue
+          siendo sancionada. A pesar de que el alcohol y el tabaco son las dos sustancias que provocan el mayor número
+          de muertes en las sociedades modernas, debido a su amplio consumo, son legales, aceptadas socialmente y
+          reguladas por las autoridades.</p>
+        <p>Debido a la penalización legal en la producción, comercialización y consumo de ciertas drogas, el mercado
+          ilegal de drogas es controlado por el crimen organizado. A pesar de que muchos países, especialmente Estados
+          Unidos, invierten miles de millones de dólares para combatir el mercado ilegal de drogas, tras décadas de esta
+          "guerra contra las drogas", muchas políticas han demostrado ser ineficaces en sus intentos por detener el
+          tráfico y el consumo.</p>
+      </div>
+    </div>
+    <div class="container p-3">
+      <a href="./drogas.html"><button type="button" class="botones btn btn-sm btn-outline-success"
+          style="--bs-bg-opacity: .5;">Ir arriba</button></a>
+    </div>
+  </div>
+  <div class="container bg-success" style="--bs-bg-opacity: .5;">
+    <img src="./imagenes/imagen_10.png" alt="imagen_10" class="img-fluid mx-auto d-block w-50 h-50">
+    <p class="text-success text-center">Imagen 10</p>
+  </div>
+  <div class="container p-5">
+    <h1 id="Titulo6" class="text-center text-light text-uppercase">Clasificación</h1>
+    <p class="text-success text-uppercase"><strong>Clasificación de las drogas según su estado legal,
+        farmacológicamente, finalidad médica y duras o blandas:</strong>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            SEGÚN SU ESTADO LEGAL
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul class="listas">
+              <li><strong>Drogas o sustancias licitas:</strong>
+                <ul>
+                  <li>Alcohol</li>
+                  <li>Tabaco</li>
+                </ul>
+              </li>
+              <li><strong>Drogas que se utilizan como medicamentos:</strong>
+                <ul>
+                  <li>Psicofarmacos</li>
+                </ul>
+              </li>
+              <li><strong>Drogas o sustancia ilicitas:</strong>
+                <ul>
+                  <li>Cannabis</li>
+                  <li>Heroína</li>
+                  <li>Cocaína</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            FARMACOLÓGICAMENTE
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul class="listas">
+              <li><strong>Depresores:</strong>
+                <ul>
+                  <li>Histamínicos</li>
+                  <li>Antipsicóticos</li>
+                  <li>Bloqueantes de canal</li>
+                  <li>Disociativos</li>
+                  <li>GABAnérgicos</li>
+                  <li>Glicinérgicos</li>
+                  <li>Narcóticos</li>
+                  <li>Simpaticolíticos</li>
+                </ul>
+              </li>
+              <li><strong>Drogas opioides:</strong>
+                <ul>
+                  <li>Alcaloides del opio</li>
+                  <li>Opiáceos semi-sintéticos</li>
+                  <li>Opioides completamente sintéticos</li>
+                </ul>
+              </li>
+              <li><strong>Drogas estimulantes:</strong>
+                <ul>
+                  <li>Adamantanos</li>
+                  <li>Antagonistas de la adenosina P1A1-Antagonista</li>
+                  <li>Alquilaminas psicotrópicas</li>
+                  <li>Arilciclohexilaminas</li>
+                  <li>Benzodiacepinas</li>
+                  <li>Colinérgicos</li>
+                  <li>Convulsivos</li>
+                  <li>Eugeroicos</li>
+                  <li>Oxazolinas</li>
+                  <li>Feniletilaminas</li>
+                  <li>Piperazinas</li>
+                  <li>Piperidinas</li>
+                  <li>Pirrolidinas</li>
+                  <li>Tropanos</li>
+                </ul>
+              </li>
+              <li><strong>Drogas alucinogenas:</strong>
+                <ul>
+                  <li>Psicodélicos</li>
+                  <li>Disociativos</li>
+                  <li>Delirantes</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            SEGÚN SU FINALIDAD MÉDICA
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul class="listas">
+              <li><strong>Drogas analgésicas:</strong>
+                <ul>
+                  <li>Opioides</li>
+                  <li>Pirazolonas</li>
+                  <li>Cannabinoides</li>
+                  <li>Anilinas</li>
+                  <li>Antiinflamatorios no esteroideos</li>
+                </ul>
+              </li>
+              <li><strong>Drogas anestésicas:</strong>
+                <ul>
+                  <li>Etéreos</li>
+                  <li>Haloalcanos</li>
+                  <li>Opioides</li>
+                  <li>Esteroides neuroactivos</li>
+                </ul>
+              </li>
+              <li><strong>Drogas sedante-hipnótica:</strong>
+                <ul>
+                  <li>GABA-agonistas</li>
+                  <li>H1 agonistas-inversos</li>
+                  <li>α1 adrenérgicos antagonistas</li>
+                  <li>α2 adrenérgicos antagonistas</li>
+                  <li>Agonistas melatoníticos</li>
+                  <li>Antagonistas orexiníticos</li>
+                </ul>
+              </li>
+              <li><strong>Drogas antidepresivas:</strong>
+                <ul>
+                  <li>Inhibidores de la recaptación selectiva</li>
+                  <li>Potenciadores de la recaptación selectiva</li>
+                  <li>Agentes de la liberación selectiva</li>
+                  <li>Antagonistas de los receptores</li>
+                  <li>Inhibidores de la recaptación</li>
+                  <li>Antidepresivos bicíclicos</li>
+                  <li>Antidepresivos tricíclicos</li>
+                  <li>Antidepresivos tetracíclicos</li>
+                  <li>Antidepresivos heterocíclicos</li>
+                  <li>Inhibidores de la monoaminooxidasa</li>
+                  <li>Agonistas de los receptores 5-HT1A</li>
+                </ul>
+              </li>
+              <li><strong>Drogas antiparkinsonianas:</strong>
+                <ul>
+                  <li>Dopaminérgicos</li>
+                  <li>Anticolinérgicos</li>
+                </ul>
+              </li>
+              <li><strong>Drogas antipsicóticas:</strong>
+                <ul>
+                  <li>Benzamidas</li>
+                  <li>Butirofenonas</li>
+                  <li>Difenilbutilpiperidinas</li>
+                  <li>Fenotiazinas</li>
+                  <li>Tioxantinas</li>
+                  <li>Tricíclicos</li>
+                  <li>Piperidinas de benzisoxazola</li>
+                  <li>Pip erazinas de benzotiazole</li>
+                </ul>
+              </li>
+              <li><strong>Drogas ansiolíticas:</strong>
+                <ul>
+                  <li>Receptores GABAA</li>
+                  <li>Agonistas de los receptores 5-HT1A</li>
+                  <li>Antagonistas de la histamina</li>
+                  <li>Antagonistas de la liberación de la corticotropina</li>
+                  <li>Antagonistas de la taquicinina</li>
+                  <li>Antagonistas de la melanina</li>
+                </ul>
+              </li>
+              <li><strong>Drogas anorexicas:</strong>
+                <ul>
+                  <li>Estimulante</li>
+                  <li>Anticannabinoide</li>
+                </ul>
+              </li>
+              <li><strong>Drogas euforizantes</strong></li>
+              <li><strong>Drogas neotrópicas:</strong>
+                <ul>
+                  <li>Simpaticomiméticos</li>
+                  <li>Xantinas</li>
+                  <li>Eugeroicos</li>
+                  <li>Antagonistas de la H3</li>
+                  <li>Agonistas inversos de GABAA</li>
+                  <li>Agonistas de la dopamina D1</li>
+                  <li>Agonistas de la nicotina α7</li>
+                  <li>Inhibidores de la prolil endopeptidasa</li>
+                  <li>Agonistas α-adrenérgicos</li>
+                  <li>Antioxidantes</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            DURAS O BLANDAS
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul class="listas">
+              <li><strong>Duras:</strong>
+                <ul>
+                  <li>Dependencia física y psíquica</li>
+                </ul>
+              </li>
+              <li><strong>Blandas:</strong>
+                <ul>
+                  <li>Dependencia solamente física</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container p-3">
+      <a href="./drogas.html"><button type="button" class="botones btn btn-sm btn-outline-success"
+          style="--bs-bg-opacity: .5;">Ir arriba</button></a>
+    </div>
+  </div>
+  <div class="container alert alert-success" role="alert">
+    <p>Para mayor información ir al siguiente link: <a href="./referencias.html" class="alert-link">a sección
+        referencias</a>. Allí encontraras links a páginas externas importantes!</p>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+<footer>
+  <div class="container-fluid bg-success text-center p-1" style="--bs-bg-opacity: .5;">
+    <a href="./drogas.html"><button type="button" class="botones btn text-light">Ir arriba</button></a>
+  </div>
+  <div class="footer container-fluid text-center p-3 text-light">
+    <a class="navbar-brand col-6" href="./index.html"><img src="./imagenes/icono_index_1.png" alt="icono_index"
+        width="50" height="50" class="icono_index d-inline-block">InfoDrog</a>
+    <p class="text-center">Desarrollado por Ledesma Paula Sabrina |
+      Sabri.ledesma1998@gmail.com</p>
+    <p class="text-center">E.F.P N°7 | Docente: Fernández Mario | Curso Desarrollo Web Front End Junior</p>
+    <a href="https://www.instagram.com/efp7ok" target="_blank"><img src="./imagenes/icono_instagram.png"
+        alt="icono_instagram" width="40" height="40"></a>
+    <a href="https://www.facebook.com/escfp7/" target="_blank"><img src="./imagenes/icono_facebook.png"
+        alt="icono_facebook" width="40" height="40"></a>
+  </div>
+</footer>
+
+</html>

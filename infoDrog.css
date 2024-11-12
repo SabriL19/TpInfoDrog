@@ -1,0 +1,119 @@
+.div_barranavegacion {
+    background: #616161;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #9bc5c3, #616161);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #9bc5c3, #616161);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nav_bar {
+    background: #616161;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #9bc5c3, #616161);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #9bc5c3, #616161);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: fantasy;
+}
+
+.footer {
+    background: #616161;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #9bc5c3, #616161);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #9bc5c3, #616161);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: fantasy;
+    text-shadow: 2px 2px 2px black;
+}
+
+h1 {
+    background: #616161;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #9bc5c3, #616161);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #9bc5c3, #616161);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: fantasy;
+    text-shadow: 2px 2px 2px black;
+}
+
+h2 {
+    font-family: fantasy;
+    text-shadow: 2px 2px 2px black;
+}
+
+h3 {
+    font-family: fantasy;
+    animation-name: transicionh3;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes transicionh3 {
+    from {
+        transform: scale(0.6, 0.6);
+    }
+
+    to {
+        transform: scale(1.0, 1.0);
+    }
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.icono_index {
+    font-family: fantasy;
+    text-shadow: 2px 2px 2px black;
+    animation-name: transicionlogo;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes transicionlogo {
+    from {
+        transform: scale(0.6, 0.6);
+    }
+
+    to {
+        transform: scale(1.0, 1.0);
+    }
+}
+
+.tablas {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+.botones {
+    font-family: fantasy;
+}
+
+.listas {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+.img-fluid {
+    animation-name: transicionimagen;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes transicionimagen {
+    from {
+        transform: scale(0.6, 0.6);
+    }
+
+    to {
+        transform: scale(1.0, 1.0);
+    }
+}
